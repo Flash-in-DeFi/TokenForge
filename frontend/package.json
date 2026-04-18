@@ -11,25 +11,27 @@
     "test:run": "jest --forceExit"
   },
   "dependencies": {
+    "axios": "^1.8.4",
     "next": "^14.2.29",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "zustand": "^5.0.3",
-    "axios": "^1.8.4"
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.14",
     "@types/node": "^22.14.1",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.5",
     "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^3.4.17",
-    "typescript": "^5.8.3",
-    "@testing-library/react": "^16.3.0",
-    "@testing-library/jest-dom": "^6.6.3",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "16.2.4",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "@types/jest": "^29.5.14",
-    "ts-jest": "^29.3.2"
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
   }
 }
